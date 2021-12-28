@@ -117,6 +117,7 @@
     "author": [
       "Alex Campbell (Chief)",
       "Alex Vanover",
+      "BMSThomas",
       "Betaflight",
       "Directory",
       "Evan Turner (Headsup)",
@@ -142,7 +143,11 @@
       "50hz",
       "533",
       "5in",
+      "6 Inch",
+      "6\"",
       "6S",
+      "7 Inch",
+      "7\"",
       "AlexFPV",
       "BMSThomas",
       "CTZsoonze",
@@ -203,6 +208,8 @@
       "filtering",
       "filters",
       "five33",
+      "freedom",
+      "freedom spec",
       "freestyle",
       "freestyle_HD",
       "freesytle",
@@ -280,6 +287,7 @@
       "vtx",
       "vtx table",
       "vtxtable",
+      "world champion",
       "youtube"
     ]
   },
@@ -630,7 +638,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/defaults.txt",
-      "hash": "b55352e30ac122256e4fca3a7e72e18d660e71f45d3e94bc4a4eca93ce7aff71",
+      "hash": "cd9af0626bc1e8be0738e39995b8d77b0494ee78b83815d4dab261d66c5ae5fd",
       "options": [],
       "title": "Default 4.3 Filter settings",
       "firmware_version": [
@@ -732,7 +740,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/defaults.txt",
-      "hash": "678b47f6387b4728d81df47685778882f34bf1afa1b321ce7193e34d351d6927",
+      "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
       "options": [],
       "title": "Default 4.3 OSD settings",
       "firmware_version": [
@@ -986,7 +994,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/BMSThomas.txt",
-      "hash": "bed17fbb03a402f211e84e1b67133617475534eb0011f2989086950459c408e5",
+      "hash": "b7475cbcf6113cc01385f282c8d85bfee258cc7256aabdb9d995fcbaa6304cb5",
       "options": [
         {
           "name": "Throttle curve",
@@ -1005,7 +1013,7 @@
         "rates",
         "MultiGP"
       ],
-      "author": "Ivan Efimov (Limon)",
+      "author": "BMSThomas",
       "description": [
         "Racing and freestyle rates by BMSThomas - MultiGP International Open 2019 champion.",
         "ACTUAL rates with 720 degrees/sec max."
@@ -1431,7 +1439,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/Crossfire_150hz_locked _CFV3.txt",
-      "hash": "b2e1a84b59933a1c386e184907d6c948d3a3781d9cc3b944a2640276176341f0",
+      "hash": "ccab0602ab7090a96e6b21613d6f3c99ae5d252062e0e13757d977276cfb6f7f",
       "options": [],
       "title": "TBS Crossfire 150hz locked  CFV3",
       "firmware_version": [
@@ -1457,7 +1465,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/Crossfire_150hz_locked_CFV2.txt",
-      "hash": "5fb9d864bad5ddf8573a8a6bf504ad92e69c1efd326078d7938b4f221b0cf94f",
+      "hash": "c1f08050464487aa68ed3f2c077fff04cc4c04ce70f34e508249fe1d265e790e",
       "options": [],
       "title": "TBS Crossfire 150hz locked  CFV2",
       "firmware_version": [
@@ -1485,7 +1493,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/Crossfire_50hz_locked_CFV2_CFV3.txt",
-      "hash": "433b06fa32109a18bdf712121f8a396f6e0f2a2b3d58889b5bf6f40d7683d4c2",
+      "hash": "f79420891629bff4e75616e9f4058019a120cb69351e194648f941d51c829863",
       "options": [],
       "title": "TBS Crossfire 50hz locked  CFV2/CFV3",
       "firmware_version": [
@@ -1512,7 +1520,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/Crossfire_dyanmic_rate.txt",
-      "hash": "5502ff5a5fa1b3674dad8450084e5c230c506a4407eb2e8675484a8f2e26530e",
+      "hash": "6f1509982af245a5d997feda60121687e44e6f2bfb76f525c23817f5a2a7d196",
       "options": [],
       "title": "TBS Crossfire Dynamic rate CFV2/CFV3",
       "firmware_version": [
@@ -1540,7 +1548,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/Tracer_CFV2.txt",
-      "hash": "495bc717d4bd271771a2c2334a7e3c447bb7badc5611cbe7cd22744185aaa021",
+      "hash": "eef6e2e820f7c0d03ee6697a1be440c52a95bf39d2563dcbe6f373588f3ded86",
       "options": [],
       "title": "TBS Tacer CFV2",
       "firmware_version": [
@@ -1567,7 +1575,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/Tracer_CFV3.txt",
-      "hash": "9135171bd40f0fa5af81605a7a16eb6bfdac198c8cdad639759ab91d49f0a95d",
+      "hash": "d4ac0c2dd93bfc09f36332ea42c4a5aba8359c364231f6216a1d531ea090225e",
       "options": [],
       "title": "TBS Tacer CFV3",
       "firmware_version": [
@@ -1615,7 +1623,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_150hz.txt",
-      "hash": "7c8a6ba4c36a5a73cb19a795c117dbd2474234dbcedd1d5a333689d1e861d6dc",
+      "hash": "60e26ee7de4ac6ed03d06903a416a7b292d9ceb6eadb143f192d7e2cd753c6af",
       "options": [
         {
           "name": "Whole pack voltage readings",
@@ -1657,7 +1665,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_250hz.txt",
-      "hash": "1f0ec644152f51737ad0fca49aa1f7e95d368aa2e9a894b8d1c9f49c74f25ca5",
+      "hash": "e0905b0c5c808ac6ffd9172bbc5567c56880a774353f21bc2b704cc1a100adb3",
       "options": [
         {
           "name": "Whole pack voltage readings to Tx",
@@ -1698,7 +1706,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_500hz.txt",
-      "hash": "338ba04dfc4354c88188bf69cb915f65d8ba1f76e790008f2903cbc361de6163",
+      "hash": "83aa700e039b46f3633b0c13a4ed220a89372e18cdbe1590d8ba30e7a3abb566",
       "options": [
         {
           "name": "Whole pack voltage readings to Tx",
@@ -1740,7 +1748,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_50hz.txt",
-      "hash": "65e69e7a367c80591445f312eb2e8cbf73a96986cd68c3ce3d299f7538c5dd43",
+      "hash": "4f29a032197bc16dc671c975b813cb2f27a171fc38f7a672676bf17978441ff9",
       "options": [
         {
           "name": "Whole pack voltage readings",
@@ -1782,7 +1790,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/frsky_sbus.txt",
-      "hash": "0d0f70178fadf11f4b8ed429cfc51ee8f39e90bacb7c31040c819d0719a397b5",
+      "hash": "fe62f2097d15c2db94df7bc77ab149e00fedf0fa913942ec57f395e8716d924f",
       "options": [
         {
           "name": "Whole pack voltage readings",
@@ -1844,7 +1852,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/cinematic.txt",
-      "hash": "8db31be1d5aa3383c42a1aaf2b44472f275a510f6e2b2bdf9c1a8553a790d170",
+      "hash": "874cf6273bc3ffa9147f7d3d09d7867495e0f56a1e689062277dcde65cf30ead",
       "options": [
         {
           "name": "Cinematic Actual rates",
@@ -1900,7 +1908,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/freestyle.txt",
-      "hash": "f3c24a71c67226ae36cb074e0113613b2715cef2a372291c7f9115d8b638caa0",
+      "hash": "ca95f3a5f58913253ba1dbb57c4d0392043d4769226efb94f7140528303a6c6c",
       "options": [
         {
           "name": "Suggested Actual rates",
@@ -1932,7 +1940,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/hd_freestyle.txt",
-      "hash": "fe26812f4bb6653aa42a749e31537adf91a061380dad8d91d8158c4e69e2c494",
+      "hash": "ddeacc0ac0f495d1877e751eaf3f979583be7de308dc2f1797976b1d77c66d50",
       "options": [
         {
           "name": "Recommended Actual rates",
@@ -1967,7 +1975,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/race.txt",
-      "hash": "fdef3e440f7a0c79cff2be489131db672239a1eeaca5a016faf8663193f83028",
+      "hash": "390abab514bab1640dc3524b24f503f24cddc7e32aaf8c2a15c5fcef620775cc",
       "options": [],
       "title": "Race RC smoothing",
       "firmware_version": [
@@ -1994,7 +2002,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/SupaflyFPV_Freestyle_5_Inch_EasyTune.txt",
-      "hash": "8bc110ea5f48aef0de800ba87308d6637bbf9b616bce234ff97cd4987324f007",
+      "hash": "2d52fbbb8aeb22170459b74d5b788ed80bb5d9952f2e8009cb07b103117615d3",
       "options": [
         {
           "name": "RPM filtering",
@@ -2017,7 +2025,7 @@
           "checked": false
         }
       ],
-      "title": "SupaflyFPV Freestyle 5 Inch EasyTune",
+      "title": "SupaflyFPV Freestyle 5 Inch",
       "firmware_version": [
         "4.3"
       ],
@@ -2034,21 +2042,131 @@
       ],
       "author": "SupaflyFPV",
       "description": [
-        "Supa-Easy Freestyle Preset for 5 Inch Builds",
+        "SupaflyFPV Community Freestyle Preset for 5 Inch Builds",
         "",
-        "Easily tune freestyle builds and get great performance using only the Master Multiplier Slider.",
-        "",
-        "Select the option for your build with or without HD camera (eg GoPro) as the base tune.",
+        "Select the option for your build with or without HD camera (eg GoPro) as the baseline.",
         "",
         "Half to one click up or down Master Slider to tweak the tune - in OSD or Configurator.",
         "",
-        "If the quad feels loose, click Master up. Quad shakes/oscillates click Master down.",
+        "For a Master Slider setting tailored to your Lipo and Motor Kv go here: https://tinyurl.com/SupaflyFPV",
         "",
         "RPM Filtering for best performance (default) - or de-select for Non RPM Setup (check esc compatibility).",
         "",
-        "Thats it. Enjoy!"
+        "If using F7/H7 Flight Controller run 8k Pidloop and turn off Gyro Low Pass Filter 2 for max performance.",
+        "",
+        "Enjoy!"
       ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/41",
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/124",
+      "include_warning": [
+        "misc/warnings/en/rpm_filters.txt"
+      ],
+      "include": [
+        "presets/4.3/tune/defaults.txt",
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/SupaflyFPV_Freestyle_6_and_EasyTune.txt",
+      "hash": "4411b1554066234acca3b0b812ca1c84f290096dcffb38f485a5fc8c112ddec7",
+      "options": [
+        {
+          "name": "RPM filtering",
+          "checked": true
+        },
+        {
+          "name": "With HD Cam",
+          "checked": true
+        },
+        {
+          "name": "Without HD Cam",
+          "checked": false
+        }
+      ],
+      "title": "SupaflyFPV Freestyle 6 Inch",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Supafly",
+        "SupaflyFPV",
+        "Freestyle",
+        "6\"",
+        "6 Inch"
+      ],
+      "author": "SupaflyFPV",
+      "description": [
+        "SupaflyFPV Community Freestyle Preset for 6 Inch Builds",
+        "",
+        "Select the option for your build with or without HD camera (eg GoPro) as the baseline.",
+        "",
+        "Half to one click up or down Master Slider to tweak the tune - in OSD or Configurator.",
+        "",
+        "For a Master Slider setting tailored to your Lipo and Motor Kv go here: https://tinyurl.com/SupaflyFPV",
+        "",
+        "RPM Filtering for best performance (default) - or de-select for Non RPM Setup (check esc compatibility).",
+        "",
+        "If using F7/H7 Flight Controller run 8k Pidloop and turn off Gyro Low Pass Filter 2 for max performance.",
+        "",
+        "Enjoy!"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/124",
+      "include_warning": [
+        "misc/warnings/en/rpm_filters.txt"
+      ],
+      "include": [
+        "presets/4.3/tune/defaults.txt",
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/SupaflyFPV_Freestyle_7_Inch_EasyTune.txt",
+      "hash": "36335f28e15ea1335625e4abd6174335f38ad53b97ec8de618a1d569554be520",
+      "options": [
+        {
+          "name": "RPM filtering",
+          "checked": true
+        },
+        {
+          "name": "With HD Cam",
+          "checked": true
+        },
+        {
+          "name": "Without HD Cam",
+          "checked": false
+        }
+      ],
+      "title": "SupaflyFPV Freestyle 7 Inch",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Supafly",
+        "SupaflyFPV",
+        "Freestyle",
+        "7\"",
+        "7 Inch"
+      ],
+      "author": "SupaflyFPV",
+      "description": [
+        "SupaflyFPV Community Freestyle Preset for 7 Inch Builds",
+        "",
+        "Select the option for your build with or without HD camera (eg GoPro) as the baseline.",
+        "",
+        "Half to one click up or down Master Slider to tweak the tune - in OSD or Configurator.",
+        "",
+        "For a Master Slider setting tailored to your Lipo and Motor Kv go here: https://tinyurl.com/SupaflyFPV",
+        "",
+        "RPM Filtering for best performance (default) - or de-select for Non RPM Setup (check esc compatibility).",
+        "",
+        "If using F7/H7 Flight Controller run 8k Pidloop and turn off Gyro Low Pass Filter 2 for max performance.",
+        "",
+        "Enjoy!"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/124",
       "include_warning": [
         "misc/warnings/en/rpm_filters.txt"
       ],
@@ -2059,7 +2177,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/ctzsnooze_5in_4S_race.txt",
-      "hash": "efe81625a50ab10752ae454047b39f4fbd1238b9665713de797a83e2eda42d5f",
+      "hash": "adf2a888087a2037469a02ffbaa81898513cfca47f6566bafaa127a629e80e9c",
       "options": [
         {
           "name": "FILTER: RPM enabled, ctzsnooze race",
@@ -2139,7 +2257,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/defaults.txt",
-      "hash": "893935eae369a70afb3579d04b991334c91b8fafc6c93b9985b0d4b70872f2d9",
+      "hash": "01aca6320dd03893dca8af4e246f156f2347a9dff618d23e7641f9e4590fdd53",
       "options": [],
       "title": "Tune defaults for Basic 4.3 TUNES",
       "firmware_version": [
@@ -2164,15 +2282,69 @@
       ]
     },
     {
-      "fullPath": "presets/4.3/tune/karate_freestyle_5_inch.txt",
-      "hash": "393792bf03351955ab3ceea828b7618fc76a1a890d93e2a4a650cc6d9c737158",
+      "fullPath": "presets/4.3/tune/freedom_spec_460g.txt",
+      "hash": "5ab6ccd508a5938a5b721fa57221ecee5ed3cc787493661a43bc309a48d86b61",
       "options": [
         {
           "name": "Dshot300",
           "checked": false
         },
         {
+          "name": "Force LiPo sell count = 3",
+          "checked": false
+        }
+      ],
+      "title": "Freedom Spec 460 - 500g",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "sugarK",
+        "limon",
+        "ctzsnooze",
+        "freedom",
+        "freedom spec",
+        "headsup",
+        "five33",
+        "533",
+        "racing",
+        "race",
+        "5\""
+      ],
+      "author": "Ivan Efimov (Limon)",
+      "description": [
+        "This tune works ONLY with bidirectional DSHOT 600/300. If your FC can't handle DSHOT600, pelase select DSHOT 300 in the options here.",
+        "If your RC link is anything different from 250hz, please use corresponding preset from RC link category on top of this preset.",
+        "DO NOT try to fly this tune on any battery besides 3S!",
+        "Freedom spec: 3S LiPo, Headsup 1960kv 2207 motors, HQ R38 5 inch props. Minimum weight with the battery: 460g.",
+        "",
+        "This tune prioritizes clean motor traces at full throttle to make sure your quad flies as fast as possible without loosing energy for heating the motors.",
+        "The less noise the faster your quad flies at full throttle. Make sure your frame is solid, all screws are tight, RC link/OpenTX/EdgeTX is up to date.",
+        "",
+        "Credits: sugarK and ctzsnooze for helping with this preset. It is not done yet and there is some room for more impromements. Stay tuned!"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/116",
+      "include_warning": [
+        "misc/warnings/en/dshot.txt",
+        "misc/warnings/en/rpm_filters.txt"
+      ],
+      "include": [
+        "presets/4.3/tune/defaults.txt",
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/karate_freestyle_5_inch.txt",
+      "hash": "c9e27e43f6b619bb3bff95f1984527faf51cf66c5f5bd6fc7a7cb04f1bc2bfb2",
+      "options": [
+        {
           "name": "Dshot600",
+          "checked": true
+        },
+        {
+          "name": "Dshot300",
           "checked": false
         },
         {
@@ -2185,7 +2357,7 @@
         "4.3"
       ],
       "category": "TUNE",
-      "status": "COMMUNITY",
+      "status": "OFFICIAL",
       "keywords": [
         "karate",
         "6S",
@@ -2217,8 +2389,76 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/tune/karate_race.txt",
+      "hash": "57f00f77d2c5b3b6aeddbae47171fc611d67009011a9db3e4ae2e849ad8c879e",
+      "options": [
+        {
+          "name": "Dshot600",
+          "checked": true
+        },
+        {
+          "name": "Dshot300",
+          "checked": false
+        },
+        {
+          "name": "dynamic idle for 2000kv 6s",
+          "checked": false
+        },
+        {
+          "name": "spicy tune",
+          "checked": false
+        },
+        {
+          "name": "Noisy airframe (can be used with spicey)",
+          "checked": false
+        },
+        {
+          "name": "sugarK's rates",
+          "checked": false
+        }
+      ],
+      "title": "Karate Race 6s 5\"",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "karate",
+        "6S",
+        "race",
+        "world champion",
+        "5 inch",
+        "5\"",
+        "sugarK",
+        "limon",
+        "ctzsnooze",
+        "karateBrot"
+      ],
+      "author": "sugarK",
+      "description": [
+        "This 6s racing tune was developed with the help of @ctzsnooze around @karatebrot’s RPM crossfade code allowing a pretty aggressive filter array which is the karate array.",
+        "This tune works well on any quality airframes and has been flown on the Viper racer (where it was developed ) BMS Js1, 533 switchback, HGLRC wind and of course @limons Open racer.",
+        "It should also work on other quality racing frames but use at your own risk as it is an aggressive tune. This tune so far has won a good number of events including the 2021 IO.",
+        "",
+        "Things to note.. YOU HAVE TO USE RPM FILTERING WITH THIS TUNE, failure to do so might result in fire and regarding Dshot600,  if your setup has errors in the motor tab using bidirectional Dshot then change to 8k/4k and dshot300.",
+        "Also this should be applied to a clean flash after you've setup your rates, swtiches, vtx tables etc. To test arm the quad with props on, it should sound clean with no grinding, if it passes that then hover test and check motor temps.",
+        "If any thing is off don't fly it!!",
+        "",
+        "SECOND NOTE.... Radio links.. 1. Make sure your radio system is totally up to date using either Edgetx or Opentx and your ADC in the hardware page is OFF 2. Go to the radio presets and apply the correct setup for your system and link speed."
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/41",
+      "include_warning": [
+        "misc/warnings/en/rpm_filters.txt"
+      ],
+      "include": [
+        "presets/4.3/tune/defaults.txt",
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/tune/reset_all.txt",
-      "hash": "e01855fe5cdf05e0b3987c76736756206f986628e0de2c5b47bebc34c54a77b1",
+      "hash": "2165decde88996174ea40801337b94b307f95cfb10b389738efe314c8d5431ab",
       "options": [
         {
           "name": "PID values",
@@ -2403,7 +2643,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/reset_some.txt",
-      "hash": "17d26c3f9db79dbde6e2acca55261723f4cb83c1b14fd5d5b207eeccc2a8d0f3",
+      "hash": "35e006053f715e3da438f75a3109a5b18432d41fd78f37472f962eb667d64d95",
       "options": [
         {
           "name": "PID values",
@@ -2588,14 +2828,14 @@
     },
     {
       "fullPath": "presets/4.3/tune/tiny_karate.txt",
-      "hash": "ca1d16d2d27e0ea0e5d1f5bc960b5de35ddfc48f9218df593857d478aea9e3e2",
+      "hash": "a417f87aae3f44caffc5fbf43a6b538053db73b74a94ecb762a362de739d32c5",
       "options": [
         {
-          "name": "Dshot300",
-          "checked": false
+          "name": "Dshot600",
+          "checked": true
         },
         {
-          "name": "Dshot600",
+          "name": "Dshot300",
           "checked": false
         },
         {
