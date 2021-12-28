@@ -1,10 +1,10 @@
-#$ TITLE: SupaflyFPV Freestyle 5 Inch
+#$ TITLE: SupaflyFPV Freestyle 7 Inch
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: Supafly, SupaflyFPV, 4S, 6S, Freestyle, 5 inch, 5"
+#$ KEYWORDS: Supafly, SupaflyFPV, Freestyle, 7", 7 Inch
 #$ AUTHOR: SupaflyFPV
-#$ DESCRIPTION: SupaflyFPV Community Freestyle Preset for 5 Inch Builds
+#$ DESCRIPTION: SupaflyFPV Community Freestyle Preset for 7 Inch Builds
 #$ DESCRIPTION:
 #$ DESCRIPTION: Select the option for your build with or without HD camera (eg GoPro) as the baseline.
 #$ DESCRIPTION:
@@ -28,9 +28,9 @@ set dshot_bidir = OFF
 set simplified_gyro_filter = OFF
 set simplified_gyro_filter_multiplier = 0
 set gyro_lpf2_static_hz = 1000
-set gyro_lpf1_dyn_min_hz = 300
-set gyro_lpf1_dyn_max_hz = 600
-set dyn_notch_count = 3
+set gyro_lpf1_dyn_min_hz = 120
+set gyro_lpf1_dyn_max_hz = 350
+set dyn_notch_count = 5
 set dyn_notch_q = 300
 set dyn_notch_min_hz = 100
 set dyn_notch_max_hz = 800
@@ -59,75 +59,46 @@ set motor_pwm_protocol = DSHOT600
 set dshot_bidir = ON
 set simplified_gyro_filter = OFF
 set simplified_gyro_filter_multiplier = 0
-set rpm_filter_harmonics = 1
 set gyro_lpf2_static_hz = 1000
-set gyro_lpf1_dyn_min_hz = 300
-set gyro_lpf1_dyn_max_hz = 600
-set gyro_lpf1_dyn_expo = 8
+set gyro_lpf1_dyn_min_hz = 120
+set gyro_lpf1_dyn_max_hz = 350
 set dyn_notch_count = 2
-set dyn_notch_q = 400
+set dyn_notch_q = 300
 set dyn_notch_min_hz = 100
 set dyn_notch_max_hz = 800
+set rpm_filter_harmonics = 3
 
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): 4s Lipo with HD Cam (2400-2700kv motors)
+#$ OPTION BEGIN (CHECKED): With HD Cam
+
 
 # -- Sliders --
 
-set simplified_master_multiplier = 120
-set simplified_i_gain = 75
-set simplified_d_gain = 110
-set simplified_pi_gain = 110
-set simplified_dmax_gain = 0
-set simplified_feedforward_gain = 90
-set simplified_pitch_d_gain = 95
-set simplified_pitch_pi_gain = 115
-simplified_tuning apply
-
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 4s Lipo with No HD Cam (2400-2700kv motors)
-
-# -- Sliders --
-
-set simplified_master_multiplier = 120
-set simplified_i_gain = 75
-set simplified_d_gain = 110
-set simplified_pi_gain = 110
-set simplified_dmax_gain = 0
-set simplified_feedforward_gain = 90
-set simplified_pitch_d_gain = 90
-simplified_tuning apply
-
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 6s Lipo with HD Cam (1750 - 1950kv motors)
-
-# -- Sliders --
-
-set simplified_master_multiplier = 100
+set simplified_master_multiplier = 140
 set simplified_i_gain = 75
 set simplified_d_gain = 110
 set simplified_pi_gain = 115
 set simplified_dmax_gain = 0
 set simplified_feedforward_gain = 90
+set simplified_pitch_d_gain = 105
 set simplified_pitch_pi_gain = 110
 simplified_tuning apply
 
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 6s Lipo with No HD Cam (1750 - 1950kv motors)
+#$ OPTION BEGIN (UNCHECKED): Without HD Cam
 
 # -- Sliders --
 
-set simplified_master_multiplier = 100
+set simplified_master_multiplier = 140
 set simplified_i_gain = 75
 set simplified_d_gain = 110
 set simplified_pi_gain = 115
 set simplified_dmax_gain = 0
 set simplified_feedforward_gain = 90
 set simplified_pitch_d_gain = 95
+set simplified_pitch_pi_gain = 105
 simplified_tuning apply
 
 #$ OPTION END
