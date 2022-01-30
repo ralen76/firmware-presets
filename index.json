@@ -117,6 +117,7 @@
     "author": [
       "Alex Campbell (Chief)",
       "Alex Vanover",
+      "BMSThomas",
       "Betaflight",
       "Directory",
       "Evan Turner (Headsup)",
@@ -126,6 +127,7 @@
       "Mark Spatz (UAV Tech)",
       "MinChan Kim",
       "NemesisXB",
+      "Pablo Flor",
       "SupaflyFPV",
       "ctzsnooze",
       "sugarK"
@@ -156,6 +158,7 @@
       "DShot telemetry",
       "ELRS",
       "EVO",
+      "Fenix",
       "GPS",
       "HD",
       "HD_freestyle",
@@ -170,6 +173,7 @@
       "MultiGP",
       "OSD",
       "OpenRacer",
+      "Pablo Flor",
       "RPM",
       "SA 2.0",
       "SA 2.0 lite",
@@ -1024,7 +1028,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/BMSThomas.txt",
-      "hash": "bed17fbb03a402f211e84e1b67133617475534eb0011f2989086950459c408e5",
+      "hash": "b7475cbcf6113cc01385f282c8d85bfee258cc7256aabdb9d995fcbaa6304cb5",
       "options": [
         {
           "name": "Throttle curve",
@@ -1043,7 +1047,7 @@
         "rates",
         "MultiGP"
       ],
-      "author": "Ivan Efimov (Limon)",
+      "author": "BMSThomas",
       "description": [
         "Racing and freestyle rates by BMSThomas - MultiGP International Open 2019 champion.",
         "ACTUAL rates with 720 degrees/sec max."
@@ -1368,6 +1372,30 @@
         "09.2021 - Hadong first round - 1st",
         "11.2021 - Seoul Drone Sports Racing - 1st",
         "More to come!"
+      ],
+      "include": [
+        "presets/4.3/rates/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/rates/PabloFlor_Freestyle.txt",
+      "hash": "b87a6e7cd7ff937d6c838da0d13f903c8ac0f7c2b3e031f15865393264d4b441",
+      "options": [],
+      "title": "Pablo Flor/Fenix Fpv Rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "youtube",
+        "Fenix",
+        "freestyle",
+        "Pablo Flor"
+      ],
+      "author": "Pablo Flor",
+      "description": [
+        "Freestyle rates with 760 deg/sec for roll/pitch and 667 deg/sec for yaw. Great precission for bando ripping but enough speed to do some juicy moves."
       ],
       "include": [
         "presets/4.3/rates/defaults.txt"
@@ -2161,14 +2189,14 @@
     },
     {
       "fullPath": "presets/4.3/tune/karate_freestyle_5_inch.txt",
-      "hash": "048fe9cbfa8f799c72dd219ae8a87194c8232cea35409268341a2841baeba913",
+      "hash": "c9e27e43f6b619bb3bff95f1984527faf51cf66c5f5bd6fc7a7cb04f1bc2bfb2",
       "options": [
         {
-          "name": "Dshot300",
-          "checked": false
+          "name": "Dshot600",
+          "checked": true
         },
         {
-          "name": "Dshot600",
+          "name": "Dshot300",
           "checked": false
         },
         {
@@ -2181,7 +2209,7 @@
         "4.3"
       ],
       "category": "TUNE",
-      "status": "COMMUNITY",
+      "status": "OFFICIAL",
       "keywords": [
         "karate",
         "6S",
@@ -2214,14 +2242,14 @@
     },
     {
       "fullPath": "presets/4.3/tune/karate_race.txt",
-      "hash": "81d9fce8ea2ed048f10aab9d500f5ddf7cf1ef7df046e5763c39d1826dead5a5",
+      "hash": "57f00f77d2c5b3b6aeddbae47171fc611d67009011a9db3e4ae2e849ad8c879e",
       "options": [
         {
-          "name": "Dshot300",
-          "checked": false
+          "name": "Dshot600",
+          "checked": true
         },
         {
-          "name": "Dshot600",
+          "name": "Dshot300",
           "checked": false
         },
         {
@@ -2230,6 +2258,10 @@
         },
         {
           "name": "spicy tune",
+          "checked": false
+        },
+        {
+          "name": "Noisy airframe (can be used with spicey)",
           "checked": false
         },
         {
@@ -2274,6 +2306,38 @@
       "include": [
         "presets/4.3/tune/defaults.txt",
         "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/PabloFlor_Freestyle.txt",
+      "hash": "e6a4dc306314d47b1242c554f47f8943bbefe70c9938a8c7543f4bc5f7b58c1c",
+      "options": [],
+      "title": "Pablo Flor/Fenix Fpv Tune",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "youtube",
+        "Fenix",
+        "freestyle",
+        "Pablo Flor"
+      ],
+      "author": "Pablo Flor",
+      "description": [
+        "Pablo Flor / Fenix Fpv Pid´s for 5inch Freestyle builds",
+        "",
+        "This configuartion is intended for freestyle quads, specially for setups around 730g AUW (with Gopro and Lipo)",
+        "",
+        "I have worked on this tune to minimize propwash and make the quad feel \"on rails\" which really helps for hitting gaps and general precission flying.",
+        "",
+        "Note: I also use the RPM Filtering for clean builds preset, so as a recommendation, load also that one if your quad supports it.",
+        "",
+        "Enjoy!"
+      ],
+      "include": [
+        "presets/4.3/tune/defaults.txt"
       ]
     },
     {
@@ -2648,7 +2712,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/SupaflyFPV_Freestyle_5_Inch_EasyTune.txt",
-      "hash": "1d75fcef01157bbe2c6f9cb6f7871082b73a38b4a14e349b43cfab6bf403cc54",
+      "hash": "2d52fbbb8aeb22170459b74d5b788ed80bb5d9952f2e8009cb07b103117615d3",
       "options": [
         {
           "name": "RPM filtering",
@@ -2671,7 +2735,7 @@
           "checked": false
         }
       ],
-      "title": "SupaflyFPV Freestyle 5 Inch EasyTune",
+      "title": "SupaflyFPV Freestyle 5 Inch",
       "firmware_version": [
         "4.3"
       ],
@@ -2688,21 +2752,21 @@
       ],
       "author": "SupaflyFPV",
       "description": [
-        "Supa-Easy Freestyle Preset for 5 Inch Builds",
+        "SupaflyFPV Community Freestyle Preset for 5 Inch Builds",
         "",
-        "Easily tune freestyle builds and get great performance using only the Master Multiplier Slider.",
-        "",
-        "Select the option for your build with or without HD camera (eg GoPro) as the base tune.",
+        "Select the option for your build with or without HD camera (eg GoPro) as the baseline.",
         "",
         "Half to one click up or down Master Slider to tweak the tune - in OSD or Configurator.",
         "",
-        "If the quad feels loose, click Master up. Quad shakes/oscillates click Master down.",
+        "For a Master Slider setting tailored to your Lipo and Motor Kv go here: https://tinyurl.com/SupaflyFPV",
         "",
         "RPM Filtering for best performance (default) - or de-select for Non RPM Setup (check esc compatibility).",
         "",
-        "Thats it. Enjoy!"
+        "If using F7/H7 Flight Controller run 8k Pidloop and turn off Gyro Low Pass Filter 2 for max performance.",
+        "",
+        "Enjoy!"
       ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/41",
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/124",
       "include_warning": [
         "misc/warnings/en/rpm_filters.txt"
       ],
@@ -2713,10 +2777,10 @@
     },
     {
       "fullPath": "presets/4.3/tune/SupaflyFPV_Freestyle_6_and_EasyTune.txt",
-      "hash": "945a56585d765d58f6369ce9b501e00e6df53948b96b97780ab5feda64281bb3",
+      "hash": "4411b1554066234acca3b0b812ca1c84f290096dcffb38f485a5fc8c112ddec7",
       "options": [
         {
-          "name": "RPM filtering --",
+          "name": "RPM filtering",
           "checked": true
         },
         {
@@ -2728,7 +2792,7 @@
           "checked": false
         }
       ],
-      "title": "SupaflyFPV Freestyle 6 Inch EasyTune",
+      "title": "SupaflyFPV Freestyle 6 Inch",
       "firmware_version": [
         "4.3"
       ],
@@ -2743,21 +2807,21 @@
       ],
       "author": "SupaflyFPV",
       "description": [
-        "Supa-Easy Freestyle Preset for 6 Inch Builds",
+        "SupaflyFPV Community Freestyle Preset for 6 Inch Builds",
         "",
-        "Easily tune freestyle builds and get great performance using only the Master Multiplier Slider.",
-        "",
-        "Select the option for your build with or without HD camera (eg GoPro) as the base tune.",
+        "Select the option for your build with or without HD camera (eg GoPro) as the baseline.",
         "",
         "Half to one click up or down Master Slider to tweak the tune - in OSD or Configurator.",
         "",
-        "If the quad feels loose, click Master up. Quad shakes/oscillates click Master down.",
+        "For a Master Slider setting tailored to your Lipo and Motor Kv go here: https://tinyurl.com/SupaflyFPV",
         "",
         "RPM Filtering for best performance (default) - or de-select for Non RPM Setup (check esc compatibility).",
         "",
-        "Thats it. Enjoy!"
+        "If using F7/H7 Flight Controller run 8k Pidloop and turn off Gyro Low Pass Filter 2 for max performance.",
+        "",
+        "Enjoy!"
       ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/41",
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/124",
       "include_warning": [
         "misc/warnings/en/rpm_filters.txt"
       ],
@@ -2768,10 +2832,10 @@
     },
     {
       "fullPath": "presets/4.3/tune/SupaflyFPV_Freestyle_7_Inch_EasyTune.txt",
-      "hash": "d4161492942b16a896c92f15dd86fa5bdd554ab8be175aaa1006fff79ea99cfd",
+      "hash": "36335f28e15ea1335625e4abd6174335f38ad53b97ec8de618a1d569554be520",
       "options": [
         {
-          "name": "RPM filtering --",
+          "name": "RPM filtering",
           "checked": true
         },
         {
@@ -2783,7 +2847,7 @@
           "checked": false
         }
       ],
-      "title": "SupaflyFPV Freestyle 7 Inch EasyTune",
+      "title": "SupaflyFPV Freestyle 7 Inch",
       "firmware_version": [
         "4.3"
       ],
@@ -2798,21 +2862,21 @@
       ],
       "author": "SupaflyFPV",
       "description": [
-        "Supa-Easy Freestyle Preset for 7 Inch Builds",
+        "SupaflyFPV Community Freestyle Preset for 7 Inch Builds",
         "",
-        "Easily tune freestyle builds and get great performance using only the Master Multiplier Slider.",
-        "",
-        "Select the option for your build with or without HD camera (eg GoPro) as the base tune.",
+        "Select the option for your build with or without HD camera (eg GoPro) as the baseline.",
         "",
         "Half to one click up or down Master Slider to tweak the tune - in OSD or Configurator.",
         "",
-        "If the quad feels loose, click Master up. Quad shakes/oscillates click Master down.",
+        "For a Master Slider setting tailored to your Lipo and Motor Kv go here: https://tinyurl.com/SupaflyFPV",
         "",
         "RPM Filtering for best performance (default) - or de-select for Non RPM Setup (check esc compatibility).",
         "",
-        "Thats it. Enjoy!"
+        "If using F7/H7 Flight Controller run 8k Pidloop and turn off Gyro Low Pass Filter 2 for max performance.",
+        "",
+        "Enjoy!"
       ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/41",
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/124",
       "include_warning": [
         "misc/warnings/en/rpm_filters.txt"
       ],
@@ -2823,14 +2887,14 @@
     },
     {
       "fullPath": "presets/4.3/tune/tiny_karate.txt",
-      "hash": "0f3026fe9c9385484e68e2c44cd4a0dc482e9cb70fae28268522e730e3ec440f",
+      "hash": "a417f87aae3f44caffc5fbf43a6b538053db73b74a94ecb762a362de739d32c5",
       "options": [
         {
-          "name": "Dshot300",
-          "checked": false
+          "name": "Dshot600",
+          "checked": true
         },
         {
-          "name": "Dshot600",
+          "name": "Dshot300",
           "checked": false
         },
         {
